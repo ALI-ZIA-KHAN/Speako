@@ -1,5 +1,3 @@
-# Install necessary libraries in requirements.txt
-# Import libraries
 import whisper
 import os
 from gtts import gTTS
@@ -10,7 +8,7 @@ from groq import Groq
 model = whisper.load_model("base")
 
 # Set up Groq API client (ensure GROQ_API_KEY is set in your environment)
-GROQ_API_KEY='YOR_API_KEY_HERE'
+GROQ_API_KEY='YOUR_API_KEY_HERE'
 client = Groq(api_key=GROQ_API_KEY)
 
 
